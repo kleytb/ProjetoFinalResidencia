@@ -1,0 +1,56 @@
+.teams-card {
+    width: 100%;
+    height: 8vh;
+
+    margin-top: 3rem;
+
+    background: #F2F2F2;
+    display: flex;
+
+    cursor: pointer;
+}
+
+.card-name-container {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-span {
+    padding: 10px 10px;
+    color: #5F5F5F;
+}
+
+.card-title {
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+
+
+.card-creator-container {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-trash-container {
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-trash {
+    font-size: 1.8rem;
+}
+
+.card-trash:hover {
+    color: #ad0d0d
+}

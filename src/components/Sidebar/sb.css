@@ -1,0 +1,46 @@
+body{ 
+   margin: 0;
+   padding: 0;
+   
+}
+
+.prjt{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    cursor: pointer;
+    width: 5%;
+}
+
+.prjt .grp{
+    width: 37%;
+    height: 17%;
+    margin-top: 65%;
+    margin-left: 30%;
+}
+
+.prjt .txt{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-top: 72%;
+    margin-left: 20%;
+}
+
+.sbar{
+    position: absolute;
+    height: 300%;
+    width: 12%;
+    background-color: #000000;
+ 
+}
+
+.cr {
+   position: absolute;
+   margin: 0;
+}
+
+.cr p{
+    margin-top: 20%;
+    margin-left: 60%;
+}
+

@@ -1,0 +1,237 @@
+
+
+
+.Tcab {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-top: 12%;
+    left: 12%;
+}
+
+.Tcab h1{
+    font-size: 1.9rem;
+    width: 44%;
+}
+.Tcab p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.bt1{
+    position: absolute;
+    border-radius: 5px;
+    
+    margin-top: 6%; 
+    left: 0%;
+}
+.bt1 button{
+ width: 13vw;
+ height: 7vh;
+ border-radius: 5px;
+
+ color: #fff;
+ font-size: 0.9rem;
+ background-color: #05B1A1;
+ border: none;
+ cursor: pointer;
+
+ 
+}
+
+ .ft1 .pcb{
+    
+    position: absolute; 
+    margin-top: 5%;
+    left: 68%;
+
+ }
+  .ft1 .pcb{ 
+    width: 25%;
+
+ } 
+
+ .ft2 {
+     position: absolute;
+     width: 100%;
+     margin-top:55%;
+     margin-left: 0%;
+     
+ }
+
+ .ft2 img{
+     width: 45%;
+    border-radius: 3px;
+ }
+
+.fl .bg2{
+    z-index: 10;
+     position: absolute;
+     margin-top: 63%; 
+     left: 12%;
+     width: 20%;
+ }
+
+ .sl1 .sl{
+     position: absolute;
+     z-index: 90;
+     margin-top: 59.5%;
+     left: 5.2%;
+     width: 33%;
+     
+ }
+ .list {
+    position:absolute ;
+    margin-top: 65%;
+    left: 50%;
+    width: 40%;
+ }
+
+ .list h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    width: 70%;
+    margin-left: 15%;
+ }
+
+ .list p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    width: 64%;
+    margin-left: 15%;
+ }
+ .list ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    width: 90%;
+    margin-left: 17%;
+ }
+ .list li{
+    margin: 2rem;
+    margin-left: -9%;
+    
+ }
+
+ 
+ .mf2 {
+    position: absolute;
+    width: 100%;
+    margin-top: 92.5%;
+    margin-left: -0%;
+    
+}
+
+.mf2 img{
+   border-radius: 3px;
+   width: 45%;
+
+}
+
+.br .bg2{
+    z-index: 1;
+    position: absolute;
+    margin-top: 101%; 
+    left: 13%;
+    width: 19.6%;
+    
+}
+
+.sl13 .sl {
+    position: absolute;
+    z-index: 99;
+    margin-top: 99%;
+    left: 11.5%;
+    
+}
+.sl13 .sl{
+    width: 23%;
+}
+
+.el .bol{
+    position: absolute;
+    z-index: 2;
+    margin-top: 103%;
+    left: 13.8%;  
+    width: 18%; 
+}
+
+
+
+.list2{
+    width: 20%;
+}
+.list2 h1{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-top: 103%;
+    left: 57%;
+    font-size: 1.6rem;
+ }
+
+ .list2 p{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-top: 109%;
+    left: 57%;
+    font-size: 1.3rem;
+    width: 29%;
+ }
+ .list2 ul{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-top: 113%;
+    left: 52%;
+    font-size: 1.2rem;
+    width: 10%;
+ }
+ .list2 li{
+     margin: 2rem;
+     width: 290%;
+ }
+
+ .fteri img{
+     position: absolute;
+     margin-top: 135%;
+     width: 45%;
+     margin-left: 0%;
+ }
+
+
+
+ .ftert .lg .lge{
+     position: absolute;
+     left: 58%;
+     margin-top: 143.5%;
+     width: 10%;
+ }
+
+ .ftert .lg .lgt{
+    position: absolute;
+    margin-top: 143.5%;
+    left: 75%;
+    
+}
+.ftert .lg .b{
+    position: absolute;
+    margin-top: 143%;
+    left: 71.3%;
+    
+}
+
+
+.Text {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-top: 148%;
+    left: 56%;
+}
+
+.Text h1{
+    font-size: 1.3rem;
+    width: 85%;
+}
+.Text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    width: 83%;
+}

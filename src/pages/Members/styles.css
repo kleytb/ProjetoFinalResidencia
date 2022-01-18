@@ -1,0 +1,54 @@
+#members-container {
+    width: 70vw;
+    min-height: 100vh;
+    margin: auto;    
+}
+
+#members-header {
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#members-header-title {
+    display: flex;
+    align-items: center;
+}
+
+#members-header-title > span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.3);
+    margin-right: 15px;
+}
+
+#members-header > button {
+    border: none;
+    background: #05B1A1;
+    color: #fff;
+
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+#members-filter {
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#members-filter > input {
+    border: none;
+    border-radius: 10px;
+    background: #FAFAFA;
+    outline: none;
+
+    font-size: 1rem;
+    font-weight: 500;
+}

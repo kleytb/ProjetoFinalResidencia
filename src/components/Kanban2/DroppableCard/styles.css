@@ -1,0 +1,150 @@
+.droppable-container {
+    width: 20%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: rgba(241, 234, 228, 0.5);
+
+    /* box-shadow: 4px 4px 29px -4px rgba(0,0,0,0.57); */
+}
+
+.droppable-content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.droppable-header {
+    width: 100%;
+    height: 55px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #ebecf0
+    ;
+
+    padding: 0 2rem;
+
+}
+
+.header-content-container {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.priority-color {
+    width: 10%;
+    height: 40%;
+
+    background: #11b835;
+
+    margin-right: 0.9rem;
+}
+
+.header-text {
+
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.plus-img {
+    cursor: pointer;
+    width: 1.1rem;
+}
+
+
+.droppable {
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#card-creation {
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #f2f3f7;
+}
+
+#card-creation-header {
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#card-creation-header-x {
+    margin-right: 2%;
+    font-size: 2.5rem;
+
+    color: #f10101;
+    cursor: pointer;
+}
+
+#card-creation-form {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+}
+
+.card-creation-label {
+    font-size: 1.5rem;
+    color: #4e4e4e;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+
+#card-creation-form > #title-input {
+    width: 30%;
+    height: 7%;
+
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+
+    outline: none;
+
+    font-size: 1.2rem;
+    padding-left: 10px;
+    color: #474747;
+    
+    margin-bottom: 30px;
+}
+
+#card-creation-form > textarea {
+    min-height: 40%;
+    outline: none;
+
+    border: 1px solid #c5c5c5;
+    padding: 20px;
+
+    font-size: 1.1rem;
+}

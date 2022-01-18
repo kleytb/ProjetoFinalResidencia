@@ -1,0 +1,142 @@
+
+ 
+.telaLogin{
+    background-color: #f1eae4;
+    margin-top: 10rem;
+    padding: 4rem;
+
+    
+}
+
+.form {
+    max-width: 20rem;
+    margin: 0 auto;
+    
+  }
+  
+  .form > div {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .form > div + div{
+      margin-top: 0.5rem;
+  }
+  
+  
+  
+  .projectRole{
+    max-width: 60rem;
+    margin: 1rem;
+    border-radius: 10px;
+  }
+
+  
+  
+  button {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  input{
+      appearance: none;
+      border: 0.1rem solid black;
+      padding: 1rem;
+      border-radius: 0.2rem;
+  }
+  
+  
+  button.primary {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    border-radius: 0.2rem;
+    padding: 1rem;
+  }
+  
+  button.block {
+    width: 100%;
+  }
+  
+  .topText{
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .bottomText{
+    text-align: center;
+    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .seletorFuncao{
+      position: relative;
+      background-color: #f1eae4;
+      cursor: pointer;
+  }
+  .seletorButton{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .seletorButton img{
+      margin-right: 0.8rem;
+      transform: rotate(0deg);
+      transition: transform 0.3s ease-out;
+
+  }
+
+  .seletorFuncao.active .seletorButton img{
+      transform: rotate(-180deg);
+      
+  }
+
+  .seletorOptions{
+    padding-top: 2rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #f1eae4;
+    display: none;
+    cursor: pointer;
+
+  }
+  .seletorFuncao.active .seletorOptions {
+      display: block;
+  }
+  .seletorOption{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 1rem;
+
+  }
+
+  .seletorOption + .seletorOption {
+      margin-top: 0.5rem;
+  }
+
+  .seletorOption > div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 0.8rem;
+    
+    
+}
+
+.seletorOption > div span{
+    color: #616161;
+}
+
+.seletorOption > div span.titulo{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    
+}
+

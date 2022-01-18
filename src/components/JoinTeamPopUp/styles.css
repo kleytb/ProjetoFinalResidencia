@@ -1,0 +1,108 @@
+.join-team-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+}
+
+.join-team-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #999999a1;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity .3s;
+    z-index: 3;
+}
+
+
+
+
+.join-team-popup {
+    background: #fff;
+    border-radius: 15px;
+
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 2.5rem;
+    padding-bottom: 3.5rem;
+    transition: opacity .3s;
+    z-index: 5;
+}
+
+.join-team-popup-header {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding-bottom: 50px;
+}
+
+.join-team-popup-header > h1 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.join-team-popup-input-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.join-team-popup-input-container > strong {
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.join-team-popup-input-container > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-team-popup-input-container > div > input {
+    width: 100%;
+    outline: none;
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+
+    margin-right: 20px;
+}
+
+.join-team-popup-input-container > div > button {
+    background: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 45px;
+    font-size: 1rem;
+    /* font-weight: 500; */
+}

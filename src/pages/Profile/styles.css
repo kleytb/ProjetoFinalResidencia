@@ -1,0 +1,262 @@
+#profile-contaier {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.profile-sections {
+    width: 90%;
+    border-bottom: 2px solid #F0F0F0;
+}
+
+.profile-input {
+    margin-top: 10px;
+    outline: none;    
+    padding: 20px;
+
+    border: 1.8px solid #000;
+
+    font-size: 1rem;
+}
+
+
+/* ========================================== */
+/* =========== FIRST SECTION ================ */
+/* ========================================== */
+
+#profile-firts-section {
+    height: 25vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile-name {
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#profile-name > h1 {
+    font-size: 2rem;
+}
+
+#profile-name > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-name > div > input {
+    /* font-weight: 500; */
+}
+
+
+#profile-pic-container {
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-dropzone {
+    width: 50%;
+    height: 65%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+    object-position: center;
+
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#profile-pic-container > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: 500;
+    color:#000;
+
+    margin-top: 10px;
+    cursor: pointer;
+    
+    transition: .2s;
+}
+
+#profile-pic-container > span:hover {
+    color: #ad0d0d;
+}
+
+
+/* ========================================== */
+/* ========== SECOND SECTION ================ */
+/* ========================================== */
+
+#profile-second-section {
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-second-section > strong {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#profile-second-section > span {
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+/* ========================================== */
+/* =========== THIRD SECTION ================ */
+/* ========================================== */
+
+
+#profile-third-section {
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-third-section > strong {
+    margin-top: 20px;
+}
+
+#profile-third-section > input {
+    width: 39%;
+}
+
+
+/* ========================================== */
+/* =========== FOURTH SECTION =============== */
+/* ========================================== */
+
+
+#profile-fourth-section {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+/* #profile-fourth-section > strong { 
+    margin-bottom: 10px;
+} */
+
+#fourth-section-inputs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.fourth-section-inputs > span {
+    margin-bottom: 10px;
+}
+
+.fourth-section-input {
+    display: flex;
+    align-items: center;
+}
+
+.fourth-section-input > input {  
+    width: 35vw;
+
+    outline: none;
+    border: 1.8px solid #000;
+
+    font-size: 1rem;
+    transition: .2s;
+}
+
+.fourth-section-input > .input-eye {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    cursor: pointer;
+    color: #8C8C8C;
+}
+
+/* ========================================== */
+/* ========== BUTTONS SECTION =============== */
+/* ========================================== */
+
+#profile-buttnos-container {
+    height: 20vh;
+    border: none;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#profile-buttnos {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#profile-buttnos > button {
+    display: flex;
+    align-items: center;
+
+    border: none;
+    background: none;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    transition: .2s;
+}
+
+#profile-buttnos > button:hover {
+    color: #ad0d0d;
+}
+
+#profile-buttnos > button > #profile-delete-icon {
+    font-size: 1.8rem;
+    margin-left: 5px;
+}
+
+
+#profile-buttnos > button + button {
+    border: none;
+
+    background: #05B1A1;
+    color: #fff;
+    border-radius: 5px;
+
+    padding: 20px 60px;
+    margin-left: 50px;
+}
+
+#profile-buttnos > button + button:hover {
+    color: #fff;
+    opacity: 0.8;
+}

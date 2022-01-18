@@ -1,0 +1,139 @@
+.react-calendar__tile--active {
+    background-color: #212121;
+}
+
+
+.react-calendar__navigation__label__labelText--from {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.react-calendar__month-view__days__day {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.react-calendar__month-view__days__day--weekend {
+    color: #000;
+}
+
+.react-calendar__month-view__days__day--weekend.react-calendar__tile--active,
+.react-calendar__month-view__days__day--neighboringMonth {
+    color: #fff;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth.react-calendar__tile--hover {
+    color: #818181;
+}
+
+.react-calendar {
+    border: none;
+}
+
+.timeline-popup-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+}
+
+.timeline-popup-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #999999a1;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity .3s;
+    z-index: 3;
+}
+
+
+.timeline-popup {
+    background: #fff;
+    border-radius: 15px;
+
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 2.5rem;
+    padding-bottom: 3.5rem;
+    transition: opacity .3s;
+    z-index: 5;
+}
+
+.timeline-popup-header {
+    height: 5vh;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.timeline-popup-input-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.timeline-popup-input-container > strong {
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.timeline-popup-input-container > input {
+    width: 90%;
+    outline: none;
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+}
+.timeline-popup-calendar-container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    margin-top: 15%;
+}
+
+.timeline-popup-button-container {
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.timeline-popup-button-container > button {
+    background: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 50px;
+}

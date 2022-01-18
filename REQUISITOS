@@ -1,0 +1,4 @@
+1 - Instalar o NODE MODULES na pasta raiz do Projeto.
+2 - Instalar o NODE MODULES dentro da pasta /frontend.
+3 - Instalar o react-router-dom versão 5.3.0 na pasta /frontend.
+4 - Instalar o nodemon na pasta raiz do projeto.

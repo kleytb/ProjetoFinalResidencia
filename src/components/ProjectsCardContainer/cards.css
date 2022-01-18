@@ -1,0 +1,65 @@
+
+.projects-cards-container {
+    width: 100%;
+    min-height: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1.5rem;
+}
+
+.projects-content-header {
+    width: 100%;
+    height: 10%;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addPe{
+
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 120%;
+    
+}
+.invite{
+
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 127%;
+    width: 28%;
+    
+}
+
+.projects-content-header h1 {
+    position: absolute;
+    font-size: 2rem;
+    margin-left:45%;
+    margin-top: 12%;
+    width: 50%;
+    justify-content: left;
+}
+
+.projects-content-header button {
+    border: 1.8px solid #000;
+    background: #05B1A1;
+    padding: 14px 10px;
+    border-radius: 6px;
+    position: absolute;
+    margin-top: 3%;
+    width: 30%;
+    left: 150%;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: white;
+    border: none;
+    transition: .3s;
+}
+
+.projects-content-header button:hover {
+    background: #000;
+    color: #fff;
+}
+

@@ -1,0 +1,67 @@
+.members-card {
+    width: 100%;
+    height: 6vh;
+
+    margin-top: 30px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #D2D2D2;
+
+    display: flex;
+}
+
+.members-card-image {
+    width: 5%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-card-image > img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 50%;
+}
+.members-card-image > img.contact-pic {
+    border-radius: 0;
+
+    object-fit: contain;
+    height: 70%;
+}
+
+
+.members-card-content-container {
+    width: 95%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.members-card-content {
+    width: 18%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.members-card-content > span {
+    color: #656565;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.members-card-content > strong {
+    text-align: center;
+}
+
+.members-card-content:nth-child(1) > strong,
+.members-card-content:nth-child(1) > span {
+    text-align: left;
+}
